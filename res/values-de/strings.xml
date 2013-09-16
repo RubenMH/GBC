@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="crankset">Platos</string>
-    <string name="cassette">Piñones</string>
+    <string name="crankset">Kettenblätter</string>
+    <string name="cassette">Kassetten</string>
     <string name="wheel">Radumfang in mm</string>
     <string name="calculate">Berechnen</string>
     <string name="error_dividir_0">Sie müssen den umfang des rades</string>
