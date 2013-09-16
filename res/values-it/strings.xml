@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="crankset">Corone</string>
+    <string name="cassette">Cassette pignoni</string>
+    <string name="wheel">Circonferenza della ruota in mm</string>
+    <string name="calculate">Calcola</string>
+    <string name="error_dividir_0">È necessario immettere il perimetro della ruota</string>
+
+</resources>

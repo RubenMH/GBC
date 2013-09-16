@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="crankset">Platos</string>
+    <string name="cassette">Piñones</string>
+    <string name="wheel">Perímetro de la rueda en mm</string>
+    <string name="calculate">Calcular</string>
+    <string name="error_dividir_0">Debe introducir el perímetro de la rueda</string>
+
+</resources>
