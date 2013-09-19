@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.bostbidev.gearbikecalculator;
+package com.bostbi.dev.gearbikecalculator;
 
 public final class R {
     public static final class array {

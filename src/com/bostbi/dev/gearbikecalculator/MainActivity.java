@@ -1,4 +1,4 @@
-package com.bostbidev.gearbikecalculator;
+package com.bostbi.dev.gearbikecalculator;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.bostbi.dev.gearbikecalculator.R;
 
 public class MainActivity extends Activity {
 	
