@@ -26,13 +26,14 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
         final Spinner 	spinCrankset = (Spinner)findViewById(R.id.spinCrankset);
         final Spinner 	spinCassette = (Spinner)findViewById(R.id.spinCassette);
         final EditText 	editTextWheel = (EditText)findViewById(R.id.etWheel);
         final TextView	textViewResult = (TextView)findViewById(R.id.tvResult);
         
         SharedPreferences prefs = getPreferences(MODE_PRIVATE); 
-        final String restoredWheelValue = prefs.getString("wheel", null);
+        String restoredWheelValue = prefs.getString("wheel", null);
         Log.d(TAG, "Restored value: " + restoredWheelValue);
         if (restoredWheelValue != null) {
         	editTextWheel.setText(restoredWheelValue);

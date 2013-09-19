@@ -1,7 +1,7 @@
 <resources>
 
     <string name="crankset">Plateaux de pédalier</string>
-    <string name="cassette">Piñones</string>
+    <string name="cassette">Cassettes</string>
     <string name="wheel">Circonférence de la roue en mm</string>
     <string name="calculate">Calculer</string>
     <string name="error_dividir_0">Vous devez entrer le périmètre de la roue</string>

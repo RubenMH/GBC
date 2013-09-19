@@ -37,9 +37,13 @@ public final class R {
         public static final int activity_main=0x7f030000;
     }
     public static final class string {
+        /**  Common 
+         */
         public static final int app_name=0x7f050000;
         public static final int calculate=0x7f050004;
         public static final int cassette=0x7f050002;
+        /**  Default language 
+         */
         public static final int crankset=0x7f050001;
         public static final int error_dividir_0=0x7f050005;
         public static final int wheel=0x7f050003;

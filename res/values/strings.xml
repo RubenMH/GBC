@@ -1,14 +1,9 @@
 <resources>
 
-    <string name="app_name">GearBikeCalculator</string>
-    <string name="crankset">Crankset</string>
-    <string name="cassette">Cassette</string>
-    <string name="wheel">Wheel perimeter in mm</string>
-    <string name="calculate">Calculate</string>
-    <string name="error_dividir_0">You must insert the wheel perimeter</string>
+    <!-- Common -->
+    <string name="app_name" translatable="false">GearBikeCalculator</string>
 
-   <string-array name="crankset_values">
-       
+    <string-array name="crankset_values" translatable="false">
         <item>20</item>
         <item>22</item>
         <item>24</item>
@@ -29,8 +24,7 @@
         <item>52</item>
         <item>53</item>
     </string-array>
-    
-    <string-array name="cassete_values">
+    <string-array name="cassete_values" translatable="false">
         <item>11</item>
         <item>12</item>
         <item>13</item>
@@ -53,5 +47,13 @@
         <item>32</item>
         <item>34</item>
     </string-array>
+
+    <!-- Default language -->
+
+    <string name="crankset">Crankset</string>
+    <string name="cassette">Cassette</string>
+    <string name="wheel">Wheel perimeter in mm</string>
+    <string name="calculate">Calculate</string>
+    <string name="error_dividir_0">You must insert the wheel perimeter</string>
 
 </resources>
