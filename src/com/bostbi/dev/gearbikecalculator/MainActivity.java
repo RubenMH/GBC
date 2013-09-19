@@ -34,7 +34,6 @@ public class MainActivity extends Activity {
         final EditText 	editTextWheel = (EditText)findViewById(R.id.etWheel);
         final TextView	textViewResult = (TextView)findViewById(R.id.tvResult);
         
-        
         SharedPreferences prefs = getPreferences(MODE_PRIVATE); 
         String restoredWheelValue = prefs.getString("wheel", null);
         Log.d(TAG, "Restored value: " + restoredWheelValue);
